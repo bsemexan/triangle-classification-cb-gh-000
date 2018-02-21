@@ -8,6 +8,8 @@ class Triangle
     @c = c
   end
   def kind
+    :equilateral if a == b == c
+  end
 
   end
 
