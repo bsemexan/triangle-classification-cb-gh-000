@@ -2,7 +2,7 @@ class Triangle
   # write code here
   attr_accessor :a, :b, :c
 
-  def initializate(a, b, c)
+  def initializate(a,b,c)
     @a = a
     @b = b
     @c = c
