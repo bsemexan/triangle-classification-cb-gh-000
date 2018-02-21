@@ -9,7 +9,7 @@ class Triangle
   end
 
   def invalid_triangle
-    if l1<=0 || l2<=0 || l3<=0 || (l1+l2)<=l3 || (l3+l2)<=l1 || (l1+l3)<=l2
+    if a<=0 || b<=0 || c<=0 || (a+b)<=c || (l3+l2)<=l1 || (l1+l3)<=l2
       raise TriangleError
   end
 
