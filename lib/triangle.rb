@@ -8,11 +8,9 @@ class Triangle
     @c = c
   end
   def kind
-    if a == b && b == c 
+    if a == b && b == c
       :equilateral
     end
-  end
-
   end
 
   class TriangleError < StandardError
