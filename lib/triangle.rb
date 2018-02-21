@@ -5,7 +5,7 @@ class Triangle
   def initializate(a, b, c)
     @a = a
     @b = b
-    @side3 = side3
+    @c = c
   def kind
 
   end
