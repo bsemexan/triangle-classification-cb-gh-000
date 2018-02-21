@@ -8,8 +8,8 @@ class Triangle
     @c = c
   end
   def kind
-    if a == b && b == c
-      :equilateral
+    :equilateral if a == b && b == c
+      
     end
   end
 
