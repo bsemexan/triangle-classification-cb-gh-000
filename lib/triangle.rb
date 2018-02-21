@@ -1,4 +1,4 @@
-class Triangle
+bclass Triangle
   # triangle code
   attr_accessor :a, :b, :c
 
@@ -9,8 +9,9 @@ class Triangle
   end
 
   def invalid_triangle
-    if a<=0 || b<=0 || c<=0 || (a+b)<=c || (l3+l2)<=l1 || (l1+l3)<=l2
+    if a<=0 || b<=0 || c<=0 || (a+b)<=c || (c+b)<=a || (a+c)<=b
       raise TriangleError
+    end
   end
 
   def kind
