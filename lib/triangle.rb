@@ -9,7 +9,6 @@ class Triangle
   end
   def kind
     :equilateral if a == b && b == c
-      
     end
   end
 
