@@ -13,7 +13,7 @@ class Triangle
 	     raise TriangleError
 	  end
   end
-  
+
   def kind
     invalid_triangle
     if a == b && b == c
