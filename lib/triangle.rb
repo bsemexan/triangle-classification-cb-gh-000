@@ -9,6 +9,8 @@ class Triangle
   end
   def kind
     :equilateral if a == b && b == c
+    :isosceles elsif a == b || b == c || a == c
+
   end
 
   class TriangleError < StandardError
