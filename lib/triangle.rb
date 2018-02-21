@@ -9,9 +9,7 @@ bclass Triangle
   end
 
   def invalid_triangle
-    if a<=0 || b<=0 || c<=0 || (a+b)<=c || (c+b)<=a || (a+c)<=b
-      raise TriangleError
-    end
+
   end
 
   def kind
