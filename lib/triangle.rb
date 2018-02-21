@@ -9,6 +9,7 @@ class Triangle
   end
 
   def invalid triangle
+  end
 end
 
 class TriangleError < StandardError
