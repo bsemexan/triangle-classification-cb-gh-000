@@ -11,15 +11,14 @@ class Triangle
   def invalid triangle
   end
 
-  def kind 
-    if a == b && b == c 
+  def kind
+    if a == b && b == c
       :equilateral
-    elsif a == b || b == c || c == a 
-      :isosceles 
+    elsif a == b || b == c || c == a
+      :isosceles
     else
       :scalene
     end
-      
 end
 
 class TriangleError < StandardError
